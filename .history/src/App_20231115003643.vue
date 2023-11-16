@@ -1,14 +1,11 @@
+// eslint-disable-next-line vue/valid-template-root
 <template>
-  <SignupForm/>
 </template>
 
 <script>
-import SignupForm from './components/SignupForm.vue'
-
 export default {
   name: 'App',
   components: {
-    SignupForm
   }
 }
 </script>
